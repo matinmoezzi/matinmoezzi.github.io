@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects | Matin Moezzi</title>
+    <link>matinmoezzi.github.io/project/</link>
+      <atom:link href="matinmoezzi.github.io/project/index.xml" rel="self" type="application/rss+xml" />
+    <description>Projects</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:29:59 +0330</lastBuildDate>
+    <image>
+      <url>/matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <title>Projects</title>
+      <link>matinmoezzi.github.io/project/</link>
+    </image>
+    
+    <item>
+      <title>Deep Kung-Fu with A2C Algorithm</title>
+      <link>matinmoezzi.github.io/project/kungfu_a2c/</link>
+      <pubDate>Thu, 01 Jan 1970 03:29:59 +0330</pubDate>
+      <guid>matinmoezzi.github.io/project/kungfu_a2c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lunar Lander Problem with a Deep RL agent</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:58 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atari Breakout Game using DQN</title>
+      <link>matinmoezzi.github.io/project/breakout_dqn/</link>
+      <pubDate>Thu, 01 Jan 1970 03:29:57 +0330</pubDate>
+      <guid>matinmoezzi.github.io/project/breakout_dqn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden Markov Model for Part of Speech Tagging</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:56 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Game Playing Agent</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:55 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cartpole-v0 using Deep Crossentropy</title>
+      <link>matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</link>
+      <pubDate>Thu, 01 Jan 1970 03:29:54 +0330</pubDate>
+      <guid>matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cliff walking using SARSA Algorithm</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:53 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cartpole-v0 using REINFORCE Algorithm</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:52 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Mining Course Project</title>
+      <link>matinmoezzi.github.io/project/datamining/</link>
+      <pubDate>Thu, 01 Jan 1970 03:29:51 +0330</pubDate>
+      <guid>matinmoezzi.github.io/project/datamining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Air Cargo Planning Problem</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:50 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artifial Intelligence Course Projects</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:49 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simple Secure Chat App</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:48 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL Interface for Massive CSV Datasets</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:47 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Calculator based on TCP</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:46 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operating Systems Course Projects</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:45 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mini Library for Numerical Linear Algebra</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:29:44 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
