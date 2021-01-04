@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -86,8 +86,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -247,6 +247,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QCK9SBMD2J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-QCK9SBMD2J', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -340,6 +378,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "hsl(339, 90%, 68%)",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "hsl(339, 90%, 68%)"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -353,7 +421,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
 
   
   
@@ -506,43 +574,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/matinmoezzi.github.io/#accomplishments"><span>Accomplishments</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/matinmoezzi.github.io/#projects"><span>Projects</span></a>
         </li>
 
@@ -580,7 +611,81 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/matinmoezzi.github.io/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/matinmoezzi.github.io/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/matinmoezzi.github.io/#experience"><span>Work Experience</span></a>
         </li>
 
         
@@ -851,7 +956,7 @@
   <div class="media author-card content-widget-hr">
     
       
-      <a href="matinmoezzi.github.io"><img class="avatar mr-3 avatar-circle" src="/matinmoezzi.github.io/author/matin-moezzi/avatar_hu66f6f3dbc13c3b53905c30f0b45fda69_400627_270x270_fill_q75_lanczos_center.JPG" alt="Matin Moezzi"></a>
+      <a href="matinmoezzi.github.io"><img class="avatar mr-3 avatar-circle" src="/matinmoezzi.github.io/author/matin-moezzi/avatar_huad666694eb2d2dc134d36020ebf33a51_244215_270x270_fill_lanczos_center_2.png" alt="Matin Moezzi"></a>
     
 
     <div class="media-body">
@@ -1138,11 +1243,21 @@
     
     <script src="/matinmoezzi.github.io/js/wowchemy.min.263ae97010f784faab81ba9bc75cdca8.js"></script>
 
-    
-
-
-
-
+    <script type="text/javascript">
+    function show_hide(id_name) {
+        obj = document.getElementById(id_name)
+        if (obj.style.display == 'none') {
+            obj.style.display = 'block'
+            $("#acc_showmore_link").text('Show less')
+            return false
+        }
+        else {
+            obj.style.display = 'none'
+            $("#acc_showmore_link").text('See all Accomplishments')
+            return true
+        }
+    }
+</script>
 
 
 </body>

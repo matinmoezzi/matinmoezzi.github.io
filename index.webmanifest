@@ -2,8 +2,8 @@
   "name": "Matin Moezzi",
   "short_name": "Matin Moezzi",
   "lang": "en-us",
-  "theme_color": "#2962ff",
-  "background_color": "#2962ff",
+  "theme_color": "hsl(339, 90%, 68%)",
+  "background_color": "hsl(339, 90%, 68%)",
   "icons": [{
     "src": "/matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_192x192_fill_lanczos_center_2.png",
     "sizes": "192x192",

@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -86,8 +86,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -247,6 +247,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QCK9SBMD2J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-QCK9SBMD2J', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -293,6 +331,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "hsl(339, 90%, 68%)",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "hsl(339, 90%, 68%)"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -306,7 +374,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class="page-wrapper dark ">
 
   
   
@@ -459,43 +527,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/matinmoezzi.github.io/#accomplishments"><span>Accomplishments</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/matinmoezzi.github.io/#projects"><span>Projects</span></a>
         </li>
 
@@ -533,7 +564,81 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/matinmoezzi.github.io/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/matinmoezzi.github.io/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/matinmoezzi.github.io/#experience"><span>Work Experience</span></a>
         </li>
 
         
@@ -927,13 +1032,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0 project_title">
-      <a style="color: black;" $target | safeHTMLAttr }}>Hidden Markov Model for Part of Speech Tagging </a>
+      <a style="color: black;" $target | safeHTMLAttr }}>Cartpole-v0 using REINFORCE Algorithm </a>
     </h3>
 
     
     <a  class="summary-link">
       <div class="article-style">
-        Implementing hidden Markov model for part of speech tagging using Pomegranate library.<br>@ Artificial Intelligence Nanodegree by Udacity
+        Monte Carlo policy gradient method (REINFORCE) implementation in Cartpole-v0 environment using Gym and Tensorflow libraries. <br> @ Practical Reinforcement Learning Course by Coursera
       </div>
     </a>
     
@@ -967,7 +1072,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/hmm-tagger" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cartpole-v0_REINFORCE.ipynb" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -995,7 +1100,207 @@
     
     
     <a >
-      <img src="/matinmoezzi.github.io/project/hmm-tagger/featured_hu52af3b6334c4f13682801612c39b6c60_15824_bbd32abb9217ebb7b2fd3c9f2adbc786.png" data-src="/matinmoezzi.github.io/project/hmm-tagger/featured_hu52af3b6334c4f13682801612c39b6c60_15824_150x0_resize_lanczos_2.png" alt="Hidden Markov Model for Part of Speech Tagging"
+      <img src="/matinmoezzi.github.io/project/cartpole-v0_reinforce/featured_hu37c946417514b170a74a77c98d829a23_192296_41da8afde1e5a3b4f37d539d9275fa15.gif" data-src="/matinmoezzi.github.io/project/cartpole-v0_reinforce/featured_hu37c946417514b170a74a77c98d829a23_192296_150x0_resize_lanczos.gif" alt="Cartpole-v0 using REINFORCE Algorithm"
+        class="lazyload">
+    </a>
+    
+  </div>
+</div>
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0 project_title">
+      <a style="color: black;" $target | safeHTMLAttr }}>Cliff walking using SARSA Algorithm </a>
+    </h3>
+
+    
+    <a  class="summary-link">
+      <div class="article-style">
+        On-policy TD control (SARSA) implementation in Cliff walking example (<a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton&amp;Barto</a>) using Tensorflow library. <br> @ Practical Reinforcement Learning Course by Coursera
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cliff-walking_sarsa.ipynb" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a >
+      <img src="/matinmoezzi.github.io/project/cliff_walking_sarsa/featured_hue585f61b28a74a671118de43150c5d63_196604_1042d2368e7e3c050086d041b272e85a.jpg" data-src="/matinmoezzi.github.io/project/cliff_walking_sarsa/featured_hue585f61b28a74a671118de43150c5d63_196604_150x0_resize_q75_lanczos.jpg" alt="Cliff walking using SARSA Algorithm"
+        class="lazyload">
+    </a>
+    
+  </div>
+</div>
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="media stream-item">
+  <div class="media-body">
+
+    <h3 class="article-title mb-0 mt-0 project_title">
+      <a style="color: black;" $target | safeHTMLAttr }}>Cartpole-v0 using Deep Crossentropy </a>
+    </h3>
+
+    
+    <a  class="summary-link">
+      <div class="article-style">
+        Deep crossentropy method implementation for continuous state space environments like Cartpole-v0 environment using Gym and Tensorflow libraries. <br> @ Practical Reinforcement Learning Course by Coursera
+      </div>
+    </a>
+    
+
+    <div class="stream-meta article-metadata">
+
+      
+
+      
+    </div>
+
+    
+    <div class="btn-links">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cartpole-v0_deep_crossentropy.ipynb" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    
+
+  </div>
+  <div class="ml-3">
+    
+    
+    
+    
+    
+    <a >
+      <img src="/matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/featured_hu37c946417514b170a74a77c98d829a23_192296_41da8afde1e5a3b4f37d539d9275fa15.gif" data-src="/matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/featured_hu37c946417514b170a74a77c98d829a23_192296_150x0_resize_lanczos.gif" alt="Cartpole-v0 using Deep Crossentropy"
         class="lazyload">
     </a>
     
@@ -1131,13 +1436,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0 project_title">
-      <a style="color: black;" $target | safeHTMLAttr }}>Cartpole-v0 using Deep Crossentropy </a>
+      <a style="color: black;" $target | safeHTMLAttr }}>Hidden Markov Model for Part of Speech Tagging </a>
     </h3>
 
     
     <a  class="summary-link">
       <div class="article-style">
-        Deep crossentropy method implementation for continuous state space environments like Cartpole-v0 environment using Gym and Tensorflow libraries. <br> @ Practical Reinforcement Learning Course by Coursera
+        Implementing hidden Markov model for part of speech tagging using Pomegranate library.<br>@ Artificial Intelligence Nanodegree by Udacity
       </div>
     </a>
     
@@ -1171,7 +1476,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cartpole-v0_deep_crossentropy.ipynb" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/hmm-tagger" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -1199,207 +1504,7 @@
     
     
     <a >
-      <img src="/matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/featured_hu37c946417514b170a74a77c98d829a23_192296_41da8afde1e5a3b4f37d539d9275fa15.gif" data-src="/matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/featured_hu37c946417514b170a74a77c98d829a23_192296_150x0_resize_lanczos.gif" alt="Cartpole-v0 using Deep Crossentropy"
-        class="lazyload">
-    </a>
-    
-  </div>
-</div>
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0 project_title">
-      <a style="color: black;" $target | safeHTMLAttr }}>Cliff walking using SARSA Algorithm </a>
-    </h3>
-
-    
-    <a  class="summary-link">
-      <div class="article-style">
-        On-policy TD control (SARSA) implementation in Cliff walking example (<a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton&amp;Barto</a>) using Tensorflow library. <br> @ Practical Reinforcement Learning Course by Coursera
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cliff-walking_sarsa.ipynb" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a >
-      <img src="/matinmoezzi.github.io/project/cliff_walking_sarsa/featured_hue585f61b28a74a671118de43150c5d63_196604_1042d2368e7e3c050086d041b272e85a.jpg" data-src="/matinmoezzi.github.io/project/cliff_walking_sarsa/featured_hue585f61b28a74a671118de43150c5d63_196604_150x0_resize_q75_lanczos.jpg" alt="Cliff walking using SARSA Algorithm"
-        class="lazyload">
-    </a>
-    
-  </div>
-</div>
-    
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="media stream-item">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0 project_title">
-      <a style="color: black;" $target | safeHTMLAttr }}>Cartpole-v0 using REINFORCE Algorithm </a>
-    </h3>
-
-    
-    <a  class="summary-link">
-      <div class="article-style">
-        Monte Carlo policy gradient method (REINFORCE) implementation in Cartpole-v0 environment using Gym and Tensorflow libraries. <br> @ Practical Reinforcement Learning Course by Coursera
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cartpole-v0_REINFORCE.ipynb" target="_blank" rel="noopener">
-  Code
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-    
-    
-    
-    <a >
-      <img src="/matinmoezzi.github.io/project/cartpole-v0_reinforce/featured_hu37c946417514b170a74a77c98d829a23_192296_41da8afde1e5a3b4f37d539d9275fa15.gif" data-src="/matinmoezzi.github.io/project/cartpole-v0_reinforce/featured_hu37c946417514b170a74a77c98d829a23_192296_150x0_resize_lanczos.gif" alt="Cartpole-v0 using REINFORCE Algorithm"
+      <img src="/matinmoezzi.github.io/project/hmm-tagger/featured_hu52af3b6334c4f13682801612c39b6c60_15824_bbd32abb9217ebb7b2fd3c9f2adbc786.png" data-src="/matinmoezzi.github.io/project/hmm-tagger/featured_hu52af3b6334c4f13682801612c39b6c60_15824_150x0_resize_lanczos_2.png" alt="Hidden Markov Model for Part of Speech Tagging"
         class="lazyload">
     </a>
     
@@ -1802,11 +1907,21 @@
     
     <script src="/matinmoezzi.github.io/js/wowchemy.min.263ae97010f784faab81ba9bc75cdca8.js"></script>
 
-    
-
-
-
-
+    <script type="text/javascript">
+    function show_hide(id_name) {
+        obj = document.getElementById(id_name)
+        if (obj.style.display == 'none') {
+            obj.style.display = 'block'
+            $("#acc_showmore_link").text('Show less')
+            return false
+        }
+        else {
+            obj.style.display = 'none'
+            $("#acc_showmore_link").text('See all Accomplishments')
+            return true
+        }
+    }
+</script>
 
 
 </body>

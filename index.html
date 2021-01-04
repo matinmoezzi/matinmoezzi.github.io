@@ -60,7 +60,7 @@
   
   
   
-  <meta name="theme-color" content="#2962ff">
+  <meta name="theme-color" content="hsl(339, 90%, 68%)">
   
 
   
@@ -86,8 +86,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css" crossorigin="anonymous" title="hl-light" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark">
         
       
     
@@ -247,6 +247,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QCK9SBMD2J"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'G-QCK9SBMD2J', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
   
@@ -309,6 +347,36 @@
 
 
   
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "hsl(339, 90%, 68%)",
+          "text": "rgb(255, 255, 255)"
+        },
+        "button": {
+          "background": "rgb(255, 255, 255)",
+          "text": "hsl(339, 90%, 68%)"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://www.cookiesandyou.com"
+      }
+    })});
+  </script>
+
 
 
   
@@ -322,7 +390,7 @@
 </head>
 
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper  ">
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper dark ">
 
   
   
@@ -475,43 +543,6 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/matinmoezzi.github.io/#accomplishments"><span>Accomplishments</span></a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        
-
-        
-        
-        
-        
-
-        
-          
-            
-            
-          
-          
-            
-            
-            
-              
-            
-            
-          
-        
-
-        <li class="nav-item">
           <a class="nav-link " href="/matinmoezzi.github.io/#projects"><span>Projects</span></a>
         </li>
 
@@ -549,7 +580,81 @@
         
 
         <li class="nav-item">
+          <a class="nav-link " href="/matinmoezzi.github.io/#accomplishments"><span>Accomplishments</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
           <a class="nav-link " href="/matinmoezzi.github.io/#teaching"><span>Teaching</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+
+        
+        
+        
+        
+
+        
+          
+            
+            
+          
+          
+            
+            
+            
+              
+            
+            
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/matinmoezzi.github.io/#experience"><span>Work Experience</span></a>
         </li>
 
         
@@ -681,7 +786,7 @@
 
       
       
-      <img class="avatar avatar-circle" src="/matinmoezzi.github.io/author/matin-moezzi/avatar_hu66f6f3dbc13c3b53905c30f0b45fda69_400627_270x270_fill_q75_lanczos_center.JPG" alt="Matin Moezzi">
+      <img class="avatar avatar-circle" src="/matinmoezzi.github.io/author/matin-moezzi/avatar_huad666694eb2d2dc134d36020ebf33a51_244215_270x270_fill_lanczos_center_2.png" alt="Matin Moezzi">
       
 
       <div class="portrait-title">
@@ -799,195 +904,6 @@
 </div>
 
 
-    
-
-    </div>
-  </section>
-
-  
-  
-  
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-  
-
-  
-  
-  
-  
-  
-
-  
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  <section id="accomplishments" class="home-section wg-accomplishments  "  >
-   <div class="home-section-bg " ></div>
-    <div class="container">
-
-    
-      <div class="row  ">
-      
-        
-          <div class="col-12 col-lg-4 section-heading">
-            <h1>Accomplish­ments</h1>
-            
-          </div>
-        
-      
-    
-
-      
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<div class="col-12 col-lg-8">
-    
-
-    
-    
-    <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Cutting-Edge AI: Deep Reinforcement Learning in Python</h4><div class="card-subtitle my-0 article-metadata">Udemy<span class="middot-divider"></span>
-                
-            </div>
-
-            
-
-            
-            <a class="card-link" href="https://www.udemy.com/certificate/UC-9706d8b9-27b7-4f6c-8c81-20f6cd111065/" target="_blank" rel="noopener">
-                See certificate
-            </a>
-            
-        </div>
-    </div>
-    
-    <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Practical Reinforcement Learning (with Honors)</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
-                
-            </div>
-
-            
-
-            
-            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/FQBGDT9TMQNW" target="_blank" rel="noopener">
-                See certificate
-            </a>
-            
-        </div>
-    </div>
-    
-    <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Reinforcement Learning Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
-                
-            </div>
-
-            
-
-            
-            <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/AG35G9FQ8HPW" target="_blank" rel="noopener">
-                See certificate
-            </a>
-            
-        </div>
-    </div>
-    
-    <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Deep Learning Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
-                
-            </div>
-
-            
-
-            
-            <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/FFM46QMVMN38" target="_blank" rel="noopener">
-                See certificate
-            </a>
-            
-        </div>
-    </div>
-    
-    <div class="card experience course">
-        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Natural Language Processing Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
-                
-            </div>
-
-            
-
-            
-            <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/4M6RSFN57CP4" target="_blank" rel="noopener">
-                See certificate
-            </a>
-            
-        </div>
-    </div>
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-    
-
-    
-
-    <div class="see-all">
-        <a href="matinmoezzi.github.io/accomplishments/">
-            See all Accomplishments
-            <i class="fas fa-angle-right"></i>
-        </a>
-    </div>
-    
-</div>
-
-    
-      </div>
     
 
     </div>
@@ -1431,7 +1347,7 @@
         
 
 
-<div class="col-12 isotope-item js-id-Artficial-Intelligence js-id-HMM js-id-Part-of-Speech-Tagging">
+<div class="col-12 isotope-item js-id-Reinforcement-Learning">
   
 
 
@@ -1455,13 +1371,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0 project_title">
-      <a style="color: black;" $target | safeHTMLAttr }}>Hidden Markov Model for Part of Speech Tagging </a>
+      <a style="color: black;" $target | safeHTMLAttr }}>Cartpole-v0 using REINFORCE Algorithm </a>
     </h3>
 
     
     <a  class="summary-link">
       <div class="article-style">
-        Implementing hidden Markov model for part of speech tagging using Pomegranate library.<br>@ Artificial Intelligence Nanodegree by Udacity
+        Monte Carlo policy gradient method (REINFORCE) implementation in Cartpole-v0 environment using Gym and Tensorflow libraries. <br> @ Practical Reinforcement Learning Course by Coursera
       </div>
     </a>
     
@@ -1495,7 +1411,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/hmm-tagger" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cartpole-v0_REINFORCE.ipynb" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -1523,7 +1439,7 @@
     
     
     <a >
-      <img src="/matinmoezzi.github.io/project/hmm-tagger/featured_hu52af3b6334c4f13682801612c39b6c60_15824_bbd32abb9217ebb7b2fd3c9f2adbc786.png" data-src="/matinmoezzi.github.io/project/hmm-tagger/featured_hu52af3b6334c4f13682801612c39b6c60_15824_150x0_resize_lanczos_2.png" alt="Hidden Markov Model for Part of Speech Tagging"
+      <img src="/matinmoezzi.github.io/project/cartpole-v0_reinforce/featured_hu37c946417514b170a74a77c98d829a23_192296_41da8afde1e5a3b4f37d539d9275fa15.gif" data-src="/matinmoezzi.github.io/project/cartpole-v0_reinforce/featured_hu37c946417514b170a74a77c98d829a23_192296_150x0_resize_lanczos.gif" alt="Cartpole-v0 using REINFORCE Algorithm"
         class="lazyload">
     </a>
     
@@ -1543,7 +1459,7 @@
         
 
 
-<div class="col-12 isotope-item js-id-Artficial-Intelligence">
+<div class="col-12 isotope-item js-id-Reinforcement-Learning">
   
 
 
@@ -1567,13 +1483,13 @@
   <div class="media-body">
 
     <h3 class="article-title mb-0 mt-0 project_title">
-      <a style="color: black;" $target | safeHTMLAttr }}>Adversarial Game Playing Agent </a>
+      <a style="color: black;" $target | safeHTMLAttr }}>Cliff walking using SARSA Algorithm </a>
     </h3>
 
     
     <a  class="summary-link">
       <div class="article-style">
-        Implementing adversarial search techniques by building an agent to play knights isolation.<br>@ Artificial Intelligence Nanodegree by Udacity
+        On-policy TD control (SARSA) implementation in Cliff walking example (<a href="https://web.stanford.edu/class/psych209/Readings/SuttonBartoIPRLBook2ndEd.pdf">Sutton&amp;Barto</a>) using Tensorflow library. <br> @ Practical Reinforcement Learning Course by Coursera
       </div>
     </a>
     
@@ -1600,10 +1516,6 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/matinmoezzi.github.io/project/adversarial_search/adversarial_search.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
 
 
 
@@ -1611,7 +1523,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/adversarial-search" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/matinmoezzi/practical_rl_course_projects/blob/main/cliff-walking_sarsa.ipynb" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -1639,7 +1551,7 @@
     
     
     <a >
-      <img src="/matinmoezzi.github.io/project/adversarial_search/featured_hud6416e1b735f0dd63a98b83ea1b0cc5e_26168_74aea6e0b24f45ba2de8689c86bc4a05.png" data-src="/matinmoezzi.github.io/project/adversarial_search/featured_hud6416e1b735f0dd63a98b83ea1b0cc5e_26168_150x0_resize_lanczos_2.png" alt="Adversarial Game Playing Agent"
+      <img src="/matinmoezzi.github.io/project/cliff_walking_sarsa/featured_hue585f61b28a74a671118de43150c5d63_196604_1042d2368e7e3c050086d041b272e85a.jpg" data-src="/matinmoezzi.github.io/project/cliff_walking_sarsa/featured_hue585f61b28a74a671118de43150c5d63_196604_150x0_resize_q75_lanczos.jpg" alt="Cliff walking using SARSA Algorithm"
         class="lazyload">
     </a>
     
@@ -1666,6 +1578,288 @@
     <div class="see-all">
         <a href="matinmoezzi.github.io/project/">
             See all Projects
+            <i class="fas fa-angle-right"></i>
+        </a>
+    </div>
+    
+</div>
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="accomplishments" class="home-section wg-accomplishments  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Accomplish­ments</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-12 col-lg-8">
+    
+
+    
+    
+    <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Cutting-Edge AI: Deep Reinforcement Learning in Python</h4><div class="card-subtitle my-0 article-metadata">Udemy<span class="middot-divider"></span>
+                
+            </div>
+
+            
+
+            
+            <a class="card-link" href="https://www.udemy.com/certificate/UC-9706d8b9-27b7-4f6c-8c81-20f6cd111065/" target="_blank" rel="noopener">
+                See certificate
+            </a>
+            
+        </div>
+    </div>
+    
+    <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Practical Reinforcement Learning (with Honors)</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                
+            </div>
+
+            
+
+            
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/FQBGDT9TMQNW" target="_blank" rel="noopener">
+                See certificate
+            </a>
+            
+        </div>
+    </div>
+    
+    <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Reinforcement Learning Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                
+            </div>
+
+            
+
+            
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/AG35G9FQ8HPW" target="_blank" rel="noopener">
+                See certificate
+            </a>
+            
+        </div>
+    </div>
+    
+    <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Deep Learning Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                
+            </div>
+
+            
+
+            
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/FFM46QMVMN38" target="_blank" rel="noopener">
+                See certificate
+            </a>
+            
+        </div>
+    </div>
+    
+    <div class="card experience course">
+        <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Natural Language Processing Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                
+            </div>
+
+            
+
+            
+            <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/4M6RSFN57CP4" target="_blank" rel="noopener">
+                See certificate
+            </a>
+            
+        </div>
+    </div>
+    
+    
+    <div id="acc_showmore" style="display: none;">
+        
+        <div class="card experience course">
+            <div class="card-body"><h4 class="card-title exp-title text-muted my-0">DeepLearning.AI TensorFlow Developer Specialization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                    
+                </div>
+
+                
+
+                
+                <a class="card-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/EP9L3X4NF9U3" target="_blank" rel="noopener">
+                    See certificate
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="card experience course">
+            <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Artificial Intelligence Nanodegree</h4><div class="card-subtitle my-0 article-metadata">Udacity<span class="middot-divider"></span>
+                    
+                </div>
+
+                
+
+                
+                <a class="card-link" href="https://confirm.udacity.com/SXM3TXGZ" target="_blank" rel="noopener">
+                    See certificate
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="card experience course">
+            <div class="card-body"><h4 class="card-title exp-title text-muted my-0">AI for Everyone</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                    
+                </div>
+
+                
+
+                
+                <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/MW2U89F7VAQ4" target="_blank" rel="noopener">
+                    See certificate
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="card experience course">
+            <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Generative Adversarial Network Workshop</h4><div class="card-subtitle my-0 article-metadata">Amirkabir Artificial Intelligence Summer Summit<span class="middot-divider"></span>
+                    
+                </div>
+
+                
+
+                
+                <a class="card-link" href="https://drive.google.com/file/d/1z2e3FBFXry_IkgTFDvMucz8uCZRlmC1W/view?usp=sharing" target="_blank" rel="noopener">
+                    See certificate
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="card experience course">
+            <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Software Defined Networking</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                    
+                </div>
+
+                
+
+                
+                <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/LZWUGHUJAE6P" target="_blank" rel="noopener">
+                    See certificate
+                </a>
+                
+            </div>
+        </div>
+        
+        <div class="card experience course">
+            <div class="card-body"><h4 class="card-title exp-title text-muted my-0">Network Function Virtualization</h4><div class="card-subtitle my-0 article-metadata">Coursera<span class="middot-divider"></span>
+                    
+                </div>
+
+                
+
+                
+                <a class="card-link" href="https://www.coursera.org/account/accomplishments/certificate/HDA9PP2LF32A" target="_blank" rel="noopener">
+                    See certificate
+                </a>
+                
+            </div>
+        </div>
+        
+    </div>
+
+    
+    
+    
+
+    
+    
+    
+    
+
+    
+
+    <div class="see-all">
+        <a id="acc_showmore_link" href="/#accomplishments" onclick="return show_hide('acc_showmore')">
+            See all Accomplishments
             <i class="fas fa-angle-right"></i>
         </a>
     </div>
@@ -1970,6 +2164,173 @@
     
     
 </div>
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="experience" class="home-section wg-experience  "  >
+   <div class="home-section-bg " ></div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="col-12 col-lg-4 section-heading">
+            <h1>Work Experience</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+
+<div class="col-12 col-lg-8">
+  
+
+  
+  
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Software Developer</h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="https://itours.ir/" target="_blank" rel="noopener">iTours Online Travel Agency</a></h4>
+          <div class="text-muted exp-meta">
+            Jan 2018 –
+            
+              Jan 2019
+            
+            
+              <span class="middot-divider"></span>
+              <span>Tehran, Iran</span>
+            
+          </div>
+          <div class="card-text"><p>Responsibilities include:</p>
+<ul>
+<li>Developing &amp; Maintaining Cloud Services Infrastructure</li>
+<li>Designing and Implementing Enterprise SOAP &amp; Restful Web Services</li>
+<li>Developing Asp.Net Core Wep App &amp; Web API</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="row experience">
+    
+    <div class="col-auto text-center flex-column d-none d-sm-flex">
+      <div class="row h-50">
+        <div class="col border-right">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+      <div class="m-2">
+        <span class="badge badge-pill border ">&nbsp;</span>
+      </div>
+      <div class="row h-50">
+        <div class="col ">&nbsp;</div>
+        <div class="col">&nbsp;</div>
+      </div>
+    </div>
+    
+    <div class="col py-2">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title exp-title text-muted mt-0 mb-1">Web Developer</h4>
+          <h4 class="card-title exp-company text-muted my-0"><a href="http://www.parsianinsurance.com/" target="_blank" rel="noopener">Parsian Insurance Co.</a></h4>
+          <div class="text-muted exp-meta">
+            Jan 2017 –
+            
+              Jan 2018
+            
+            
+              <span class="middot-divider"></span>
+              <span>Tehran, Iran</span>
+            
+          </div>
+          <div class="card-text"><p>Responsibilities include:</p>
+<ul>
+<li>Effectively refactored previous projects based on Design Patterns &amp; SOLID principles</li>
+<li>Developed a Asp.Net web application for the insurance management system</li>
+<li>Developed front-end side of web application with HTML, CSS &amp; Javascript</li>
+</ul>
+</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+</div>
+
 
     
       </div>
@@ -2349,11 +2710,21 @@
     
     <script src="/matinmoezzi.github.io/js/wowchemy.min.263ae97010f784faab81ba9bc75cdca8.js"></script>
 
-    
-
-
-
-
+    <script type="text/javascript">
+    function show_hide(id_name) {
+        obj = document.getElementById(id_name)
+        if (obj.style.display == 'none') {
+            obj.style.display = 'block'
+            $("#acc_showmore_link").text('Show less')
+            return false
+        }
+        else {
+            obj.style.display = 'none'
+            $("#acc_showmore_link").text('See all Accomplishments')
+            return true
+        }
+    }
+</script>
 
 
 </body>

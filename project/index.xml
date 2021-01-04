@@ -37,7 +37,7 @@
     </item>
     
     <item>
-      <title>Hidden Markov Model for Part of Speech Tagging</title>
+      <title>Cartpole-v0 using REINFORCE Algorithm</title>
       <link></link>
       <pubDate>Thu, 01 Jan 1970 03:29:56 +0330</pubDate>
       <guid></guid>
@@ -45,7 +45,7 @@
     </item>
     
     <item>
-      <title>Adversarial Game Playing Agent</title>
+      <title>Cliff walking using SARSA Algorithm</title>
       <link></link>
       <pubDate>Thu, 01 Jan 1970 03:29:55 +0330</pubDate>
       <guid></guid>
@@ -61,7 +61,7 @@
     </item>
     
     <item>
-      <title>Cliff walking using SARSA Algorithm</title>
+      <title>Adversarial Game Playing Agent</title>
       <link></link>
       <pubDate>Thu, 01 Jan 1970 03:29:53 +0330</pubDate>
       <guid></guid>
@@ -69,7 +69,7 @@
     </item>
     
     <item>
-      <title>Cartpole-v0 using REINFORCE Algorithm</title>
+      <title>Hidden Markov Model for Part of Speech Tagging</title>
       <link></link>
       <pubDate>Thu, 01 Jan 1970 03:29:52 +0330</pubDate>
       <guid></guid>
