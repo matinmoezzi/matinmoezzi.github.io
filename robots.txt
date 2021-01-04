@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: matinmoezzi.github.io/sitemap.xml
+Sitemap: https://matinmoezzi.github.io/sitemap.xml

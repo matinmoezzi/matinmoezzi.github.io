@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reinforcement Learning | Matin Moezzi</title>
-    <link>matinmoezzi.github.io/tag/reinforcement-learning/</link>
-      <atom:link href="matinmoezzi.github.io/tag/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://matinmoezzi.github.io/tag/reinforcement-learning/</link>
+      <atom:link href="https://matinmoezzi.github.io/tag/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Reinforcement Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:29:56 +0330</lastBuildDate>
     <image>
-      <url>/matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Reinforcement Learning</title>
-      <link>matinmoezzi.github.io/tag/reinforcement-learning/</link>
+      <link>https://matinmoezzi.github.io/tag/reinforcement-learning/</link>
     </image>
     
     <item>
@@ -30,9 +30,9 @@
     
     <item>
       <title>Cartpole-v0 using Deep Crossentropy</title>
-      <link>matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</link>
+      <link>https://matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</link>
       <pubDate>Thu, 01 Jan 1970 03:29:54 +0330</pubDate>
-      <guid>matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</guid>
+      <guid>https://matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</guid>
       <description></description>
     </item>
     

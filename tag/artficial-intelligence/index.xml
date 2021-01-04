@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artficial Intelligence | Matin Moezzi</title>
-    <link>matinmoezzi.github.io/tag/artficial-intelligence/</link>
-      <atom:link href="matinmoezzi.github.io/tag/artficial-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://matinmoezzi.github.io/tag/artficial-intelligence/</link>
+      <atom:link href="https://matinmoezzi.github.io/tag/artficial-intelligence/index.xml" rel="self" type="application/rss+xml" />
     <description>Artficial Intelligence</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:29:59 +0330</lastBuildDate>
     <image>
-      <url>/matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Artficial Intelligence</title>
-      <link>matinmoezzi.github.io/tag/artficial-intelligence/</link>
+      <link>https://matinmoezzi.github.io/tag/artficial-intelligence/</link>
     </image>
     
     <item>
       <title>Computer Networks Teaching Assistant</title>
-      <link>matinmoezzi.github.io/teaching/cn/</link>
+      <link>https://matinmoezzi.github.io/teaching/cn/</link>
       <pubDate>Thu, 01 Jan 1970 03:29:59 +0330</pubDate>
-      <guid>matinmoezzi.github.io/teaching/cn/</guid>
+      <guid>https://matinmoezzi.github.io/teaching/cn/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Operating Systems Teaching Assistant</title>
-      <link>matinmoezzi.github.io/teaching/os/</link>
+      <link>https://matinmoezzi.github.io/teaching/os/</link>
       <pubDate>Thu, 01 Jan 1970 03:29:59 +0330</pubDate>
-      <guid>matinmoezzi.github.io/teaching/os/</guid>
+      <guid>https://matinmoezzi.github.io/teaching/os/</guid>
       <description></description>
     </item>
     

@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Operating Systems | Matin Moezzi</title>
-    <link>matinmoezzi.github.io/tag/operating-systems/</link>
-      <atom:link href="matinmoezzi.github.io/tag/operating-systems/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://matinmoezzi.github.io/tag/operating-systems/</link>
+      <atom:link href="https://matinmoezzi.github.io/tag/operating-systems/index.xml" rel="self" type="application/rss+xml" />
     <description>Operating Systems</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:29:45 +0330</lastBuildDate>
     <image>
-      <url>/matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Operating Systems</title>
-      <link>matinmoezzi.github.io/tag/operating-systems/</link>
+      <link>https://matinmoezzi.github.io/tag/operating-systems/</link>
     </image>
     
     <item>
