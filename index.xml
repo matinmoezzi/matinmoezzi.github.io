@@ -5,12 +5,60 @@
     <link>https://matinmoezzi.github.io/</link>
       <atom:link href="https://matinmoezzi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Matin Moezzi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:29:59 +0330</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:30:05 +0330</lastBuildDate>
     <image>
       <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
       <title>Matin Moezzi</title>
       <link>https://matinmoezzi.github.io/</link>
     </image>
+    
+    <item>
+      <title>Applying Deep Reinforcment Learning to Solve Control Problems Described by a System of Delay Differential Equations (DDEs)</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:30:05 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning Methods for Safety Assurance in Autonomous Driving</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:30:04 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving the System of ODEs of the Control Spread of Ebola Virus Epidemic using Deep Neural Networks</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:30:04 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Online Semi-Supervised Multi-label Classification</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:30:03 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Uncertainty-Aware Pseudo-Label Selection Framework using Regularized Conformal Prediction</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:30:02 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Efficient Hierarchical Reinforcement Learning using Importance Sampling</title>
+      <link></link>
+      <pubDate>Thu, 01 Jan 1970 03:30:01 +0330</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Computer Networks Teaching Assistant</title>
