@@ -5,9 +5,9 @@
     <link>https://matinmoezzi.github.io/</link>
       <atom:link href="https://matinmoezzi.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Matin Moezzi</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jan 1970 03:30:05 +0330</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:00:05 -0500</lastBuildDate>
     <image>
-      <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_2.png</url>
+      <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
       <title>Matin Moezzi</title>
       <link>https://matinmoezzi.github.io/</link>
     </image>
@@ -15,7 +15,7 @@
     <item>
       <title>Applying Deep Reinforcment Learning to Solve Control Problems Described by a System of Delay Differential Equations (DDEs)</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:30:05 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:00:05 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Deep Reinforcement Learning Methods for Safety Assurance in Autonomous Driving</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:30:04 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -31,7 +31,7 @@
     <item>
       <title>Solving the System of ODEs of the Control Spread of Ebola Virus Epidemic using Deep Neural Networks</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:30:04 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -39,7 +39,7 @@
     <item>
       <title>Online Semi-Supervised Multi-label Classification</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:30:03 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:00:03 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -47,7 +47,7 @@
     <item>
       <title>An Uncertainty-Aware Pseudo-Label Selection Framework using Regularized Conformal Prediction</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:30:02 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -55,7 +55,7 @@
     <item>
       <title>Data-Efficient Hierarchical Reinforcement Learning using Importance Sampling</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:30:01 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -63,7 +63,7 @@
     <item>
       <title>Computer Networks Teaching Assistant</title>
       <link>https://matinmoezzi.github.io/teaching/cn/</link>
-      <pubDate>Thu, 01 Jan 1970 03:29:59 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
       <guid>https://matinmoezzi.github.io/teaching/cn/</guid>
       <description></description>
     </item>
@@ -71,7 +71,7 @@
     <item>
       <title>Deep Kung-Fu with A2C Algorithm</title>
       <link>https://matinmoezzi.github.io/project/kungfu_a2c/</link>
-      <pubDate>Thu, 01 Jan 1970 03:29:59 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
       <guid>https://matinmoezzi.github.io/project/kungfu_a2c/</guid>
       <description></description>
     </item>
@@ -79,7 +79,7 @@
     <item>
       <title>Operating Systems Teaching Assistant</title>
       <link>https://matinmoezzi.github.io/teaching/os/</link>
-      <pubDate>Thu, 01 Jan 1970 03:29:59 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
       <guid>https://matinmoezzi.github.io/teaching/os/</guid>
       <description></description>
     </item>
@@ -87,7 +87,7 @@
     <item>
       <title>Lunar Lander Problem with a Deep RL agent</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:58 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:58 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -95,7 +95,7 @@
     <item>
       <title>Atari Breakout Game using DQN</title>
       <link>https://matinmoezzi.github.io/project/breakout_dqn/</link>
-      <pubDate>Thu, 01 Jan 1970 03:29:57 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:57 -0500</pubDate>
       <guid>https://matinmoezzi.github.io/project/breakout_dqn/</guid>
       <description></description>
     </item>
@@ -103,7 +103,7 @@
     <item>
       <title>Cartpole-v0 using REINFORCE Algorithm</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:56 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -111,7 +111,7 @@
     <item>
       <title>Cliff walking using SARSA Algorithm</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:55 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:55 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -119,7 +119,7 @@
     <item>
       <title>Cartpole-v0 using Deep Crossentropy</title>
       <link>https://matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</link>
-      <pubDate>Thu, 01 Jan 1970 03:29:54 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:54 -0500</pubDate>
       <guid>https://matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</guid>
       <description></description>
     </item>
@@ -127,7 +127,7 @@
     <item>
       <title>Adversarial Game Playing Agent</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:53 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:53 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -135,7 +135,7 @@
     <item>
       <title>Hidden Markov Model for Part of Speech Tagging</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:52 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:52 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -143,7 +143,7 @@
     <item>
       <title>Data Mining Course Project</title>
       <link>https://matinmoezzi.github.io/project/datamining/</link>
-      <pubDate>Thu, 01 Jan 1970 03:29:51 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:51 -0500</pubDate>
       <guid>https://matinmoezzi.github.io/project/datamining/</guid>
       <description></description>
     </item>
@@ -151,7 +151,7 @@
     <item>
       <title>Taxi-v3 with Q-Learning and ER</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:50 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:50 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -159,7 +159,7 @@
     <item>
       <title>Artifial Intelligence Course Projects</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:49 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:49 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -167,7 +167,7 @@
     <item>
       <title>Air Cargo Planning Problem</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:48 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:48 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -175,7 +175,7 @@
     <item>
       <title>Simple Secure Chat App</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:48 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:48 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -183,7 +183,7 @@
     <item>
       <title>MySQL Interface for Massive CSV Datasets</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:47 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:47 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -191,7 +191,7 @@
     <item>
       <title>Distributed Calculator based on TCP</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:46 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:46 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -199,7 +199,7 @@
     <item>
       <title>Operating Systems Course Projects</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:45 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:45 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -207,7 +207,7 @@
     <item>
       <title>A Mini Library for Numerical Linear Algebra</title>
       <link></link>
-      <pubDate>Thu, 01 Jan 1970 03:29:44 +0330</pubDate>
+      <pubDate>Wed, 31 Dec 1969 18:59:44 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
