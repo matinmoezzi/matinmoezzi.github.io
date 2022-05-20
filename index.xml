@@ -61,14 +61,6 @@
     </item>
     
     <item>
-      <title>Computer Networks Teaching Assistant</title>
-      <link>https://matinmoezzi.github.io/teaching/cn/</link>
-      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
-      <guid>https://matinmoezzi.github.io/teaching/cn/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Deep Kung-Fu with A2C Algorithm</title>
       <link>https://matinmoezzi.github.io/project/kungfu_a2c/</link>
       <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
@@ -77,10 +69,10 @@
     </item>
     
     <item>
-      <title>Operating Systems Teaching Assistant</title>
-      <link>https://matinmoezzi.github.io/teaching/os/</link>
+      <title>Neural Networks Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/nn/</link>
       <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
-      <guid>https://matinmoezzi.github.io/teaching/os/</guid>
+      <guid>https://matinmoezzi.github.io/teaching/nn/</guid>
       <description></description>
     </item>
     
@@ -93,6 +85,14 @@
     </item>
     
     <item>
+      <title>Numerical Linear Algebra Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/lin/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:58 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/lin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Atari Breakout Game using DQN</title>
       <link>https://matinmoezzi.github.io/project/breakout_dqn/</link>
       <pubDate>Wed, 31 Dec 1969 18:59:57 -0500</pubDate>
@@ -101,10 +101,26 @@
     </item>
     
     <item>
+      <title>Computer Networks Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/cn/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:57 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/cn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Cartpole-v0 using REINFORCE Algorithm</title>
       <link></link>
       <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
       <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operating Systems Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/os/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/os/</guid>
       <description></description>
     </item>
     
