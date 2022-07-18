@@ -13,17 +13,9 @@
     </image>
     
     <item>
-      <title>Applying Deep Reinforcment Learning to Solve Control Problems Described by a System of Delay Differential Equations (DDEs)</title>
+      <title>[Literature Review] Deep Reinforcement Learning Methods for Safety Assurance in Autonomous Driving</title>
       <link></link>
       <pubDate>Wed, 31 Dec 1969 19:00:05 -0500</pubDate>
-      <guid></guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Deep Reinforcement Learning Methods for Safety Assurance in Autonomous Driving</title>
-      <link></link>
-      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>
@@ -32,6 +24,14 @@
       <title>An Uncertainty-Aware Pseudo-Label Selection Framework using Regularized Conformal Prediction</title>
       <link></link>
       <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sim-to-Real Transfer Reinforcement Learning Framework for Robotics Systems</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
       <guid></guid>
       <description></description>
     </item>

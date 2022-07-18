@@ -2,38 +2,35 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://matinmoezzi.github.io/</loc>
+    <lastmod>1969-12-31T19:00:06-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/tag/multi-label-classification/</loc>
+    <lastmod>1969-12-31T19:00:06-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/publication/</loc>
+    <lastmod>1969-12-31T19:00:06-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/tag/semi-supervised-learning/</loc>
+    <lastmod>1969-12-31T19:00:06-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/tags/</loc>
+    <lastmod>1969-12-31T19:00:06-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/tag/autonomous-driving/</loc>
+    <lastmod>1969-12-31T19:00:05-05:00</lastmod>
+  </url><url>
     <loc>https://matinmoezzi.github.io/tag/deep-reinforcement-learning/</loc>
     <lastmod>1969-12-31T19:00:05-05:00</lastmod>
   </url><url>
-    <loc>https://matinmoezzi.github.io/tag/differential-equations/</loc>
+    <loc>https://matinmoezzi.github.io/tag/inverse-rl/</loc>
     <lastmod>1969-12-31T19:00:05-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/</loc>
-    <lastmod>1969-12-31T19:00:05-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/publication/</loc>
-    <lastmod>1969-12-31T19:00:05-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/tags/</loc>
-    <lastmod>1969-12-31T19:00:05-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/tag/autonomous-driving/</loc>
-    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
   </url><url>
     <loc>https://matinmoezzi.github.io/tag/deep-learning/</loc>
     <lastmod>1969-12-31T19:00:04-05:00</lastmod>
   </url><url>
     <loc>https://matinmoezzi.github.io/tag/deep-neural-networks/</loc>
     <lastmod>1969-12-31T19:00:04-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/tag/inverse-rl/</loc>
-    <lastmod>1969-12-31T19:00:04-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/tag/multi-label-classification/</loc>
-    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
-  </url><url>
-    <loc>https://matinmoezzi.github.io/tag/semi-supervised-learning/</loc>
-    <lastmod>1969-12-31T19:00:03-05:00</lastmod>
   </url><url>
     <loc>https://matinmoezzi.github.io/tag/dqn/</loc>
     <lastmod>1969-12-31T19:00:01-05:00</lastmod>
@@ -43,6 +40,12 @@
   </url><url>
     <loc>https://matinmoezzi.github.io/tag/importance-sampling/</loc>
     <lastmod>1969-12-31T19:00:01-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/tag/imitation-learning/</loc>
+    <lastmod>1969-12-31T19:00:00-05:00</lastmod>
+  </url><url>
+    <loc>https://matinmoezzi.github.io/tag/robotics/</loc>
+    <lastmod>1969-12-31T19:00:00-05:00</lastmod>
   </url><url>
     <loc>https://matinmoezzi.github.io/project/kungfu_a2c/</loc>
     <lastmod>1969-12-31T18:59:59-05:00</lastmod>
