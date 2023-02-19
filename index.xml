@@ -45,10 +45,34 @@
     </item>
     
     <item>
+      <title>APS1080 An Introduction to Reinforcement Learning</title>
+      <link>https://matinmoezzi.github.io/teaching/ap1080/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/ap1080/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSC2516 Neural Networks and Deep Learningn TA</title>
+      <link>https://matinmoezzi.github.io/teaching/csc2516/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/csc2516/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Data-Efficient Hierarchical Reinforcement Learning using Importance Sampling</title>
       <link></link>
       <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
       <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIE567 Distributed and Dynamic Decision Making TA</title>
+      <link>https://matinmoezzi.github.io/teaching/mie567/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/mie567/</guid>
       <description></description>
     </item>
     
@@ -69,10 +93,18 @@
     </item>
     
     <item>
-      <title>Neural Networks Teaching Assistant</title>
-      <link>https://matinmoezzi.github.io/teaching/nn/</link>
+      <title>MIE1615 Markov Decision Processes TA</title>
+      <link>https://matinmoezzi.github.io/teaching/mie1615/</link>
       <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
-      <guid>https://matinmoezzi.github.io/teaching/nn/</guid>
+      <guid>https://matinmoezzi.github.io/teaching/mie1615/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIE236 Probability TA</title>
+      <link>https://matinmoezzi.github.io/teaching/mie236/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/mie236/</guid>
       <description></description>
     </item>
     
@@ -113,6 +145,14 @@
       <link></link>
       <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
       <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/nn/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/nn/</guid>
       <description></description>
     </item>
     
