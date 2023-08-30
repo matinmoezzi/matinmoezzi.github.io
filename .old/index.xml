@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matin Moezzi</title>
+    <link>https://matinmoezzi.github.io/</link>
+      <atom:link href="https://matinmoezzi.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <description>Matin Moezzi</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 31 Dec 1969 19:00:06 -0500</lastBuildDate>
+    <image>
+      <url>https://matinmoezzi.github.io/images/icon_hufdd866d90d76849587aac6fbf27da1ac_464_512x512_fill_lanczos_center_3.png</url>
+      <title>Matin Moezzi</title>
+      <link>https://matinmoezzi.github.io/</link>
+    </image>
+    
+    <item>
+      <title>[Literature Review] Online Semi-Supervised Multi-label Classification</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:06 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>[Literature Review] Deep Reinforcement Learning Methods for Safety Assurance in Autonomous Driving</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:05 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solving the System of ODEs of the Control Spread of Ebola Virus Epidemic using Deep Neural Networks</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:04 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An Uncertainty-Aware Pseudo-Label Selection Framework using Regularized Conformal Prediction</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:02 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>APS1080 An Introduction to Reinforcement Learning</title>
+      <link>https://matinmoezzi.github.io/teaching/ap1080/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/ap1080/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSC2516 Neural Networks and Deep Learningn TA</title>
+      <link>https://matinmoezzi.github.io/teaching/csc2516/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/csc2516/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data-Efficient Hierarchical Reinforcement Learning using Importance Sampling</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:01 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIE567 Distributed and Dynamic Decision Making TA</title>
+      <link>https://matinmoezzi.github.io/teaching/mie567/</link>
+      <pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/mie567/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sim-to-Real Transfer Reinforcement Learning for Robotics Systems</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 19:00:00 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Kung-Fu with A2C Algorithm</title>
+      <link>https://matinmoezzi.github.io/project/kungfu_a2c/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/project/kungfu_a2c/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIE1615 Markov Decision Processes TA</title>
+      <link>https://matinmoezzi.github.io/teaching/mie1615/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/mie1615/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MIE236 Probability TA</title>
+      <link>https://matinmoezzi.github.io/teaching/mie236/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:59 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/mie236/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Lunar Lander Problem with a Deep RL agent</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:58 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Numerical Linear Algebra Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/lin/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:58 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/lin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Atari Breakout Game using DQN</title>
+      <link>https://matinmoezzi.github.io/project/breakout_dqn/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:57 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/project/breakout_dqn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Computer Networks Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/cn/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:57 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/cn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cartpole-v0 using REINFORCE Algorithm</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Neural Networks Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/nn/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/nn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operating Systems Teaching Assistant</title>
+      <link>https://matinmoezzi.github.io/teaching/os/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:56 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/teaching/os/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cliff walking using SARSA Algorithm</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:55 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cartpole-v0 using Deep Crossentropy</title>
+      <link>https://matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:54 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/project/cartpole-v0_deep_crossentropy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adversarial Game Playing Agent</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:53 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hidden Markov Model for Part of Speech Tagging</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:52 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Mining Course Project</title>
+      <link>https://matinmoezzi.github.io/project/datamining/</link>
+      <pubDate>Wed, 31 Dec 1969 18:59:51 -0500</pubDate>
+      <guid>https://matinmoezzi.github.io/project/datamining/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxi-v3 with Q-Learning and ER</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:50 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artifial Intelligence Course Projects</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:49 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Air Cargo Planning Problem</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:48 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simple Secure Chat App</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:48 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL Interface for Massive CSV Datasets</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:47 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Distributed Calculator based on TCP</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:46 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Operating Systems Course Projects</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:45 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Mini Library for Numerical Linear Algebra</title>
+      <link></link>
+      <pubDate>Wed, 31 Dec 1969 18:59:44 -0500</pubDate>
+      <guid></guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
